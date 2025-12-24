@@ -31,7 +31,7 @@ export class Updater {
 
       // Yeni sürüm sayfasını yükle
       try {
-        this.win.loadURL(`https://anm.cx/windows-update-page/${info.version}`);
+        this.win.loadURL(`https://animecix.tv/windows-update-page/${info.version}`);
       } catch (e) {
         console.error("Güncelleme sayfası yüklenemedi:", e);
       }
